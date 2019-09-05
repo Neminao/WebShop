@@ -20,10 +20,14 @@ export default class Routes extends React.Component {
                         <div className='navbarLinkDropdown'>
                         <Link className='navbarLink' to='/proizvodi'>Proizvodi</Link>
                         <div className='navbarDropdownContainer'>
-                            <div>Mlecni</div>
-                            <div>Mesni</div>
-                            <div>Zitarice</div>
-                            <div>Pice</div>
+                            <div>Kolonijalna roba</div>
+                            <div>Konditori</div>
+                            <div>Mlečni proizvodi</div>
+                            <div>Mesni proizvodi</div>
+                            <div>Riba i proizvodi od ribe</div>
+                            <div>Alkoholna i bezalkoholna pica</div>
+                            <div>Jaja</div>
+                            <div>Hemija</div>
                         </div>
                         </div>
                         <Link className='navbarLink' to='/o-nama'>O nama</Link>
