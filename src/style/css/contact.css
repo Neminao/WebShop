@@ -1,0 +1,76 @@
+.contactBody{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.contactHeader{
+    height: 200px;
+}
+
+.contactContainer {
+    margin-top:60px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgba(51, 51, 51, 0.884);
+    color: whitesmoke
+}
+.contactLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    
+}
+.contactRight {
+    width: 40%;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:160px;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:160px;
+    width:100%;
+}
+.contactForm {
+    width: 100%;
+    height: 470px;
+    position: relative;
+}
+.contactForm input {
+    width:100%;
+    padding: 8px;
+}
+.contactForm textarea {
+    padding: 8px;
+    width: 100%;
+    height: 120px;
+    resize: none;
+    position: relative;
+}
+.contactForm button {
+    border: 2px solid whitesmoke;
+    background: transparent;
+    color: whitesmoke;
+    height: 50px;
+    width: 200px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.contactForm button:hover{
+    color: aquamarine;
+    border-color: aquamarine;
+}
+.contactForm div {
+    margin-bottom: 10px;
+}
