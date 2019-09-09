@@ -1,0 +1,112 @@
+.productPage {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productsItem {
+    background-size: cover;
+    position: relative;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 10px 0; 
+  }
+  
+  .productsItemTitle {
+    position: absolute;
+    color: rgb(50, 50, 50);
+    height: 80px;
+    width: 401px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.753);
+    margin: 0;
+    top:0;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease;
+  }
+  
+  .productsItemImg{
+    position: relative;
+    object-position: center;
+    object-fit: cover;
+    
+    width: 601px;
+  }
+
+  .productsItemContent {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 401px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;  
+    transition: all 0.5s ease;
+    
+  }
+  
+  .productsItemContent a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    border: solid 2px transparent;
+    padding: 5px 0;
+  }
+
+  .productsItemContent a:hover {
+    border-bottom: solid 2px rgb(102, 206, 171);
+    color: rgb(102, 206, 171);;
+  }
+
+.productsItemShowHideBtn {
+    height: 321px;
+    background-color: rgba(255, 255, 255, 0.753);
+    width: 30px;
+    position: absolute;
+    top: 80px;
+    border: none;
+    font-weight: bold;
+    transition: left 0.5s ease;
+}
+
+.productsItemShowHideBtn:hover {
+    background-color: rgba(255, 255, 255, 0.897);
+}
+
+.show {
+    left: 0px;
+}
+
+.hide {
+    left: 200px;
+}
+
+.hidden {
+    width: 0px;
+    visibility: hidden;   
+}
+.hidden a {
+    opacity: 0;
+    
+}
+
+.shown {
+    width: 200px;
+    
+}
+.shown a{
+    transition-property: opacity;
+    transition-delay: 0.3s;
+}
+
+.full {
+    width: 601px;
+}

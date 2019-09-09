@@ -28,6 +28,7 @@ body {
   position: relative;
   padding-bottom: 6rem;
   min-height: 100%;
+  background-attachment: fixed
 }
 
 .mainBody {
@@ -149,7 +150,8 @@ body {
 .navbarDropdownItem {
   background-size: cover;
   position: relative;
-  
+  font-weight: bold;
+  border-radius: 2px;
 }
 
 .navbarDropdownItem div {
@@ -237,7 +239,22 @@ body {
   background-color: rgba(245, 245, 245, 0.719);
   transform: translateY(100px);
   z-index:10;
-  
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.animatedDivTopPart h2{
+  text-align: center;
+  color: rgb(78, 78, 78);
+  margin: 15px 0 0 0;
+}
+
+.animatedDivTopPart img{
+  background-size: cover;
 }
 
 .animatedDivWrapper .animatedDivContainer:hover .animatedDivContent.animatedDivTopPart{
@@ -263,13 +280,31 @@ body {
 
 .animatedDivWrapper .animatedDivContainer:hover .animatedDivContent.animatedDivBottomPart{
   transform: translateY(0);
-  background-color: aquamarine;
+  background-color: rgb(88, 88, 88);
   opacity: 1;
 }
 
+.animatedDivBottomPart h5 {
+  margin: 5px;
+  color: whitesmoke;
+}
 
+.animatedDivLink {
+  padding: 6px;
+  border: solid 2px whitesmoke;
+  margin-top: 5px;
+  text-decoration: none;
+}
+.animatedDivLink a {
+  text-decoration: none;
+  color: whitesmoke;
+}
 
+.animatedDivLink:hover {
+ color: aquamarine;
+ border-color: aquamarine;
+}
 
-
-
-
+.animatedDivLink:hover a{
+  color: aquamarine;
+ }
