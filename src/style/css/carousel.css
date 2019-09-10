@@ -1,0 +1,59 @@
+.carouselWrapper{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carouselImgContainer {
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    
+    margin-left: -2200px;
+}
+
+.carouselMoveRight {
+    margin-left: -3400px;
+    transition: margin 1s ease;
+}
+
+.carouselMoveLeft{
+    margin-left: -1000px;
+    transition: margin 1s ease;
+}
+
+
+.carouselImg {
+    width: 1200px;
+}
+
+.carouselBtn {
+    position: absolute;
+    height: 100%;
+    border: none;
+    background-color: rgba(78,78,78,0.78);
+    height: 600px;
+    color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    z-index: 5;
+}
+
+#left{
+    left: 0;
+    background-image: url(../img/left.png);
+    
+}
+
+#right{
+    right: 0;
+    background-image: url(../img/right.png);
+}
+
+.carouselBtn:hover {
+    background-color: rgba(78, 78, 78, 0.89);
+}

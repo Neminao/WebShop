@@ -9,31 +9,36 @@ import Home from '../components/Home';
 import Contact from '../components/Contact';
 import Dropdown from '../components/Dropdown';
 import Products from '../components/Products';
+import Footer from '../components/Footer';
 
 export default class Routes extends React.Component {
     render() {
         return (
             <Router>
-                    
-                    <div className='pageBody'>
+
+                <div className='pageBody'>
                     <Route path="/" exact component={Home} />
                     <Route path="/o-nama/" component={About} />
                     <Route path="/proizvodi/" component={Products} />
                     <Route path="/kontakt/" component={Contact} />
+                </div>
+                <nav className='navbar'>
+                    <div className='navbarLogoContainer'>
+                        <Link to='/'>
+                        <span><img height={80} src='style/img/Logo.png' alt="LOGO"></img></span>
+                        </Link>
                     </div>
-                    <nav className='navbar'>
-                        <div className='navbarLogoContainer'><div>LOGO</div></div>
-                        <div className='navbarLinks'>
+                    <div className='navbarLinks'>
                         <Link className='navbarLink' to='/'>Početna</Link>
                         <div className='navbarLinkDropdown'>
-                        <Dropdown />
+                            <Dropdown />
                         </div>
                         <Link className='navbarLink' to='/o-nama'>O nama</Link>
                         <Link className='navbarLink' to='/kontakt'>Kontakt</Link>
-                        </div>
+                    </div>
 
-                    </nav>
-                    <footer className='footer'></footer>
+                </nav>
+                <Footer />
             </Router>
         )
     }

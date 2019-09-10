@@ -1,8 +1,17 @@
 import React from 'react'
 import AnimatedDiv from '../components/AnimatedDiv'
+import Carousel from './Carousel';
 
 export default class Home extends React.Component {
     render() {
+        const images = [
+            'style/img/vp.jpg',
+            'style/img/kolonijal.jpg',
+            'style/img/mleko.jpg',
+            'style/img/meso.jpg',
+            'style/img/hemija[33621].jpg',
+            'style/img/smrznuto[34019].jpg'
+        ]
         const details = [<h5>Tel: +381 11 3807 324</h5>,
         <h5>Mob: +381 64 11 65 562</h5>, <h5>E-mail: ikopak1@gmail.com</h5>,
         <h5 className='animatedDivLink'><a href='/kontakt'>Kontakt stranica</a></h5>]
@@ -25,7 +34,7 @@ export default class Home extends React.Component {
         <h5 className='animatedDivLink'><a href='https://ras.gov.rs/podrska-izvozu/standardi/haccp-1'>Saznaj vise</a></h5>];
         return (
             <div className='homeBody'>
-                <div className='homeBanner'> Banner </div>
+                <div className='homeBanner'> <Carousel images={images} /> </div>
                 <div className='homeAnimatedDivsContainer'>
                     <AnimatedDiv title='ISO Standard' details={detailsISO} imgLink='style/img/iso.png' />
                     <AnimatedDiv title='HACCP Standard' details={detailsHASSAP} imgLink='style/img/haccp2.png' />

@@ -1,0 +1,44 @@
+.footer {
+    background-color: rgba(78,78,78,0.9);
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer div {
+    height: 200px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: whitesmoke;
+}
+.footerContact div{
+ height: 30px;
+}
+
+
+.footerNav {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footerLink {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    color: aquamarine;
+}

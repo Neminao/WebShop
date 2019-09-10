@@ -5,47 +5,21 @@ export default class About extends React.Component {
         return (
             <div className='pageBody'>
                 <div className='aboutPageBody'>
-                    <h1>O nama</h1>
+                    <h2 className='aboutTitle'>ŠTEDITE , SNABDEVAJUĆI  SE  U   VELEPRODAJI  HRANE  "IKOPAKU"</h2>
                     <div>
                         <p>
-                        Trgovinsko preduzeće "Ikopak" d.o.o. je nastalo 2014. godine u Beogradu.
-Međutim, naš istorijat seže dalje u prošlost i odnosi se na uspešan nastavak
-poslovanja renomirane kompanije "Jabuka" iz čijeg ogranka smo nastali i nastavili
-uspešnu karijeru.
+                            Veleprodaja  hrane  i  namirnica „Ikopak  doo“  bavi  se  isporukom  namirnica za ishranu za  velike  potrošače  i  pakuje  zrnaste  i  praškaste  proizvode  koji  su  namenjeni   savremenim  načinima ishrane i  pripremanja  obroka  .
                         </p>
                         <p>
-                        Od osnivanja kompanije, naš fokus se odnosi na kompletnu, kvalitetnu i fleksibilnu
-uslugu u domenu prehrambene industrije, trgovine, kao i uslužnog pakovanja.
-Na tržištu slovimo za ekspeditivnog i pouzdanog dobavljača svih prehrambenih
-proizvoda namenjenih ljudskoj upotrebi. Među našim klijentimima su mnoge javne
-ustanove kao što su domovi zdravlja, predškolske ustanove, domovi za stara lica,
-bolnice, škole, kao i ugostiteljski objekti.
+                            „Ikopak  doo“  posluje  sa kompletnim  asortimanom namirnicama za  ishranu  koji  je  potreban  velikim  potrošačima  kao  bolnice ,  vrtići  ,  internati   a naročito    domovi  za  stare ,  čiji  je  pojedinačno  najveći  snabdevač namirnicama  u  Beogradu .  Naša  veleprodaja  hrane je  kompletna  i  sadrži  ,  meso ,  mesne  prerađevine ,  mleko ,  mlečne  prerađevine ,  namirnice  opšte  potrošnje ( šećer ,  brašno , ulje ,  testenine ,  pirinač ,  smrznuto  povrće ....) ,  sveže  voće  i  povrće  i  hemiju  za  domaćinstvo   a  u  mogućnosti  je  da  obezbedi i  namirnice i  hranu  prilagođenu  ishrani  velikih  potrošača.
                         </p>
                         <p>
-                        Poslovanje i uslugu smo prilagodili potrebama tržišta. Trenutno našim klijentima nudimo
-mnoštvo prehrambenih artikala, počev od osnovnih životnih namirnica kao što su
-brašno i šećer, zatim sveže meso i mesne prerađevine, topli i hladni napitci, začini, sosevi, testenine, smrznuti proizvodi, itd.
+                            Naša  veleprodaja hrane  i  namirnica  poseduje  sve  zdravstvene  sertifikate  po  zakonu  o  bezbednosti  hrane  ,  ISSO  22000,  HACCP ,  zdravstvene  ateste  namirnica  i  laboratorijske  analize  namirnica  i hrane. Naša  veleprodaja hrane poseduje  svu  potrebnu  opremu  za  ovaj  vid  delatnosti( hrana i  namirnice) , tri  rashladne  komore (  dve  minusne  i  jednu  plusnu ), savremeno  opremljen  magacin ,  teretni  lift  za  prijem  i  otpremu  robe ,  prijemnu  i  otpremnu   rampu ,  vozila   za  razvoz  robe  po  Gradu  opremljena  rashladnim  uređajima ,  raznu  pomoćnu  tehniku  za  otpremu  robe  itd .
                         </p>
                         <p>
-                        Rashladne komore u okviru našeg prostora omgućuju nam čuvanje proizvoda od mesa i
-mleka, zamrznutih proizvoda i njihovu distribuciju u svakom momentu na željenu adresu.
-Između ostalog, svojim voznim parkom vršimo brzu isporuku i kompletnu logistiku po zahtevu klijenta.
+                            Hrana  i  namirnice   se  nabavlja  u  najboljem  stanju ,   direktno  od  proizvođača  a  nešto  manje  od  trgovina,  tako  da  kvalitet  namirnica nikada  ne  manjka . Sve  namirnice i  hrana  se mogu  nabaviti  kod  nas  i  na  odloženo  plaćanje. Namirnice ( hrana ) se  transportuje  do  vaših  magacina  bez  ikakve  nadoknade . Bez  obzira  na  svakodnevne  akcije  trgovačkih velikih  sistema , veleprodaja hrane  „Ikopak   doo“  uvek  zadržava  konkurentnost  i  ne  menja  cene  do  god  je  to  moguće .“Ikopak  doo“   širi  svoj  obim  poslovanja namirnicama  i  hranom  iz  godine  u  godinu  ,  što  govori  da  se  pozicionirao  na  tržištu  hrane  u  Beogradu  i   ovaj  trend  se  nastavlja .
                         </p>
-                        <p>
-                        Takođe se bavimo uslužnim punjenjem i pakovanjem proizvoda za ljudsku upotrebu
-(praškasti, sitnozrnasti i granulisani proizvodi) Ambalaža može biti od polipropilena,
-duplexa ili triplexa u zavisnosti od potrebe klijenta. Klijentima nudimo pomoć i savete
-u kreiranju dizajna, kao i izradu kompletnog vizuelnog identiteta proizvoda.
-                        </p>
-                        <p>
-                        Kompletna proizvodnja je sertifikovana po HACCP standardu.
-                        </p>
-                        <p>
-                        Svojim kapacitetima, iskustvom, kvalitetom usluga, kao i poštovanjem dogovorenih
-uslova, saradnje i rokova, možemo da zadovoljimo sve potrebe i zahteve klijenata, 
-što potvrđuje i veliki broj domaćih firmi koje su nam ukazale poverenje.
-
-                        </p>
+                        
                     </div>
                 </div>
             </div>

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './style/css/index.css';
 import './style/css/products.css';
 import './style/css/contact.css';
+import './style/css/carousel.css';
+import './style/css/footer.css';
 import MainTemplate from './MainTemplate';
 import * as serviceWorker from './serviceWorker';
 

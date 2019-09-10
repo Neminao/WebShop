@@ -22,12 +22,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.753);
+    background-color: rgba(78, 78, 78, 0.753);
     margin: 0;
     top:0;
     right: 0;
     text-align: center;
     transition: all 0.5s ease;
+    color: whitesmoke;
   }
   
   .productsItemImg{
@@ -42,7 +43,7 @@
     position: absolute;
     left: 0;
     top: 0px;
-    background-color: rgba(255, 255, 255, 0.753);
+    background-color: rgba(78, 78, 78, 0.753);
     height: 401px;
     display: flex;
     flex-direction: column;
@@ -54,11 +55,12 @@
     
   }
   
-  .productsItemContent a {
+  .productsItemContent h4 {
     text-decoration: none;
-    color: rgb(78, 78, 78);
     border: solid 2px transparent;
     padding: 5px 0;
+    color: whitesmoke;
+    margin: 5px 0;
   }
 
   .productsItemContent a:hover {
@@ -68,25 +70,29 @@
 
 .productsItemShowHideBtn {
     height: 321px;
-    background-color: rgba(255, 255, 255, 0.753);
-    width: 30px;
+    background-color: rgba(78, 78, 78, 0.753);
+    width: 40px;
     position: absolute;
     top: 80px;
     border: none;
     font-weight: bold;
     transition: left 0.5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .productsItemShowHideBtn:hover {
-    background-color: rgba(255, 255, 255, 0.897);
+    background-color: rgba(78, 78, 78, 0.897);
 }
 
 .show {
     left: 0px;
+    background-image: url(../img/right.png);
 }
 
 .hide {
     left: 200px;
+    background-image: url(../img/left.png);
 }
 
 .hidden {
