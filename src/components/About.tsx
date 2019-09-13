@@ -5,7 +5,7 @@ export default class About extends React.Component {
         return (
             <div className='pageBody'>
                 <div className='aboutPageBody'>
-                    <h2 className='aboutTitle'>ŠTEDITE , SNABDEVAJUĆI  SE  U   VELEPRODAJI  HRANE  "IKOPAKU"</h2>
+                    <h2 className='aboutTitle'>O NAMA</h2>
                     <div>
                         <p>
                             Veleprodaja  hrane  i  namirnica „Ikopak  doo“  bavi  se  isporukom  namirnica za ishranu za  velike  potrošače  i  pakuje  zrnaste  i  praškaste  proizvode  koji  su  namenjeni   savremenim  načinima ishrane i  pripremanja  obroka  .

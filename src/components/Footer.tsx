@@ -18,12 +18,6 @@ export default class Footer extends React.Component {
                             <tbody>
 
                                 <tr>
-                                    <td>Adresa:</td><td>{" "} </td>
-                                    <td>
-                                        Svetog Nikole 43, 11000 Beograd, Srbija
-                                    </td>
-                                </tr>
-                                <tr>
                                     <td>Tel:</td><td> {" "}</td><td>+381 11 3807 324</td>
                                 </tr>
                                 <tr>

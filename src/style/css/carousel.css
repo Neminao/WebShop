@@ -32,9 +32,8 @@
 
 .carouselBtn {
     position: absolute;
-    height: 100%;
     border: none;
-    background-color: rgba(78,78,78,0.78);
+    background-color: rgba(78,78,78,0.9);
     height: 600px;
     color: whitesmoke;
     background-repeat: no-repeat;
@@ -55,5 +54,56 @@
 }
 
 .carouselBtn:hover {
-    background-color: rgba(78, 78, 78, 0.89);
+    background-color: rgba(78, 78, 78, 0.97);
+}
+
+@media screen and (max-width: 764px){
+    .carouselImg, .carouselWrapper, .carouselBtn{
+        height: 450px;
+        max-width: 900px;
+    }
+    .carouselImgContainer{
+        margin-left: -900px;
+    }
+    .carouselMoveLeft {
+        margin-left: 0px;
+    }
+    .carouselMoveRight {
+        margin-left: -1800px;
+    }
+    .carouselBtn {
+        height: 30px;
+        bottom: 0;
+    }
+    #left {
+        left: 50%;
+        margin-left: -60px; 
+    }
+    #right {
+        left: 50%;
+    }
+
+
+}
+@media screen and (max-width: 411px){
+    .carouselImg{
+        height: 300px;
+        max-width: 600px;
+    }
+    .carouselWrapper {
+        height: 300px;
+    }
+    .carouselBtn {
+        height: 30px;
+    }
+    .carouselImgContainer{
+        margin-left: -600px;
+    }
+    .carouselMoveLeft {
+        margin-left: 0px;
+    }
+    .carouselMoveRight {
+        margin-left: -1200px;
+    }
+    
 }

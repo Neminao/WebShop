@@ -2,7 +2,10 @@ import React from 'react'
 import AnimatedDiv from '../components/AnimatedDiv'
 import Carousel from './Carousel';
 
-export default class Home extends React.Component {
+export default class Home extends React.Component<{loading: any; isLoaded: boolean},{}> {
+    constructor(props: any){
+        super(props)
+    }
     render() {
         const images = [
             'style/img/vp.jpg',
@@ -17,14 +20,14 @@ export default class Home extends React.Component {
         <h5 className='animatedDivLink'><a href='/kontakt'>Kontakt stranica</a></h5>]
         const details2 = [<h5>Konsalting u oblasti javnih nabavki</h5>,
         <h5>Usluge kompletne logistike i distribucije robe</h5>,
-        <h5>Transport sirovina i isporuku gotovih proizvoda</h5>,
+        <h5>Transport sirovina i isporuka gotovih proizvoda</h5>,
         <h5>Uslužno punjenje i pakovanje proizvoda</h5>,
-        <h5 className='animatedDivLink'><a href='/o-nama'>Saznaj vise</a></h5>
+        <h5 className='animatedDivLink'><a href='/o-nama'>Saznaj više</a></h5>
         ]
         const detailsISO: any[] = [
             <h5 className='animatedDivLink'>
                 <a href='https://ras.gov.rs/podrska-izvozu/standardi/iso-standardi'>
-                    Saznaj vise
+                    Saznaj više
                 </a>
             </h5>];
         const detailsHASSAP: any[] = [<h5>HACCP je sistem bezbednosti hrane koji se zasniva na analizi i kontroli potencijalnih bioloških/mikrobioloških,
@@ -34,7 +37,8 @@ export default class Home extends React.Component {
         <h5 className='animatedDivLink'><a href='https://ras.gov.rs/podrska-izvozu/standardi/haccp-1'>Saznaj vise</a></h5>];
         return (
             <div className='homeBody'>
-                <div className='homeBanner'> <Carousel images={images} /> </div>
+                <h1 className='title'> ŠTEDITE, SNABDEVAJUĆI SE U "IKOPAKU" </h1>
+                <div className='homeBanner'> <Carousel images={images} loading={this.props.loading} isLoaded={this.props.isLoaded}/> </div>
                 <div className='homeAnimatedDivsContainer'>
                     <AnimatedDiv title='ISO Standard' details={detailsISO} imgLink='style/img/iso.png' />
                     <AnimatedDiv title='HACCP Standard' details={detailsHASSAP} imgLink='style/img/haccp2.png' />
